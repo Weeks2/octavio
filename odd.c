@@ -19,7 +19,7 @@ int main() {
         printf("Numbers bellow 10 are not accepted: ");
     }else{
     // if qty < 10 : msg -- calculate_odd(qty)
-    int x = calculate_odd(10);
+    int x = calculate_odd(qty);
     printf("%d\n", x);
 
     }  
