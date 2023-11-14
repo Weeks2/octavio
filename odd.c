@@ -1,11 +1,9 @@
 #include <stdio.h>
 int main() {
-    int quantity = 10;
-    int number = 1;
-    int i = 0;
-    for(i = 0; i < quantity; i++) {
-        printf("%d\n", number);
-        number += 2;
+    for(int number = 1; number <= 10; number++) {
+        if(number % 2 != 0) {
+            printf("%d\n", number);
         }
-    return 0;
     }
+    return 0;
+}
