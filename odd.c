@@ -1,27 +1,23 @@
 #include <stdio.h>
-
-int calculate_odd(int qty) {
-    int result = 0;
+int calculate_odd_numbers(int qty) {
+    int count = 0;
     for(int number = 1; number <= qty; number++) {
         if(number % 2 != 0) {
-            //printf("%d\n", number);
+            count ++;
         }
     }
-   return qty; // 
+   return count; 
 }
 
 int main() {
-    // get qty
     int qty = 0;
     printf("Type qty: ");
     scanf("%d", &qty);
     if(qty < 10) {
-        printf("Numbers bellow 10 are not accepted: ");
+        printf("Numbers below 10 are not accepted.\n");
     }else{
-    // if qty < 10 : msg -- calculate_odd(qty)
-    int x = calculate_odd(qty);
-    printf("%d\n", x);
-
+        int oddCount = calculate_odd_numbers(qty);
+        printf("There are %d odd numbers from 0 to %d\n", oddCount, qty);
     }  
     return 0;
 }
