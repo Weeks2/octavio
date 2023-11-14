@@ -15,8 +15,13 @@ int main() {
     int qty = 0;
     printf("Type qty: ");
     scanf("%d", &qty);
+    if(qty < 10) {
+        printf("Numbers bellow 10 are not accepted: ");
+    }else{
     // if qty < 10 : msg -- calculate_odd(qty)
     int x = calculate_odd(10);
     printf("%d\n", x);
+
+    }  
     return 0;
 }
