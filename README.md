@@ -18,3 +18,7 @@ Numero: Representacion abstracta indenpendiente de lo que representa
  + operadores logicos && ||
  + operadores aritmeticos + - * /
  + operadores unarios + & *
+
+ Escibir un programa que me diga cuantos nùmeros impares hay hasta un nùmero como lìmite. 
+ Ejemplo: Si capturo el nùmero 10, me dirà: hay x cantidad de nùmeros impartes desde el 0 al 10.
+ Pero si es menor a 10 el nùmero que yo capturo entonces me dirà que no se hace ningùn càlculo y el programa termina. 
