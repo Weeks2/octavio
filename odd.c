@@ -12,11 +12,11 @@ int calculate_odd(int qty) {
 
 int main() {
     // get qty
+    int qty = 0;
+    printf("Type qty: ");
+    scanf("%d", &qty);
     // if qty < 10 : msg -- calculate_odd(qty)
     int x = calculate_odd(10);
-    int y = calculate_odd(100);
-
-     printf("%d\n", x);
-     printf("%d\n", y);
+    printf("%d\n", x);
     return 0;
 }
