@@ -12,6 +12,7 @@ int validations(int qty) {
     } 
 
     if(qty > 100000000) {
+        printf("The number entered cannot be larger than 100000000");
         return 0;
     } 
 
