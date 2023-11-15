@@ -2,6 +2,7 @@
 
 int validations(int qty) {
     if(qty == 0) {
+        printf("The number entered cannot be 0")
         return 0;
     }
 
@@ -15,8 +16,8 @@ int validations(int qty) {
 
     if(qty == 1) {
         return 0;
-
     } 
+
 }
 
 int is_odd(int number) {
