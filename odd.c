@@ -23,7 +23,7 @@ int main() {
     int qty = 0;
     printf("Type qty: ");
     scanf("%d", &qty);
-    if(qty < 10) {
+    if(is_odd(qty)) {
         printf("Numbers below 10 are not accepted.\n");
     }else{
         int oddCount = calculate_odd_numbers(qty);
