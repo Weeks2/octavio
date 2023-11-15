@@ -17,6 +17,7 @@ int validations(int qty) {
     } 
 
     if(qty == 1) {
+        printf("The number entered cannot be 1");
         return 0;
     } 
 
