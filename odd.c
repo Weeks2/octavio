@@ -2,11 +2,12 @@
 
 int validations(int qty) {
     if(qty == 0) {
-        printf("The number entered cannot be 0")
+        printf("The number entered cannot be 0");
         return 0;
     }
 
     if(qty < 0) {
+        printf("The number entered cannot be negative");
         return 0;
     } 
 
