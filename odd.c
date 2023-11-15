@@ -12,6 +12,11 @@ int validations(int qty) {
     if(qty > 100000000) {
         return 0;
     } 
+
+    if(qty == 1) {
+        return 0;
+
+    } 
 }
 
 int is_odd(int number) {
